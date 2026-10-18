@@ -1,0 +1,66 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"quote_id\": null, \"quote_url\": null, \"quote_status\": null, \"price_valid_until\": null, \"revised_from\": null, \"totals\": null, \"estimated_ship_date\": null, \"estimated_arrival_date\": null, \"tax_note\": \"Prices are in USD before sales tax; tax is added at checkout.\", \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"error\": null, \"next_step\": \"Call quote_parts again with the part_ids.\", \"status\": \"processing\", \"parts\": [{\"part_id\": \"part_a\", \"delete_token\": \"dt_a\", \"file_name\": \"Bracket.step\", \"status\": \"ready\", \"quantity\": 2, \"finish\": \"gray\", \"units\": \"mm\", \"dimensions_mm\": [20, 30, 40], \"unit_price\": null, \"line_total\": null, \"warnings\": [], \"error\": null}, {\"part_id\": \"part_b\", \"delete_token\": \"dt_b\", \"file_name\": \"Cover.step\", \"status\": \"processing\", \"quantity\": 1, \"finish\": \"black\", \"units\": \"mm\", \"dimensions_mm\": null, \"unit_price\": null, \"line_total\": null, \"warnings\": [], \"error\": null}]}"
+      }
+    ],
+    "structuredContent": {
+      "quote_id": null,
+      "quote_url": null,
+      "quote_status": null,
+      "price_valid_until": null,
+      "revised_from": null,
+      "totals": null,
+      "estimated_ship_date": null,
+      "estimated_arrival_date": null,
+      "tax_note": "Prices are in USD before sales tax; tax is added at checkout.",
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "error": null,
+      "next_step": "Call quote_parts again with the part_ids.",
+      "status": "processing",
+      "parts": [
+        {
+          "part_id": "part_a",
+          "delete_token": "dt_a",
+          "file_name": "Bracket.step",
+          "status": "ready",
+          "quantity": 2,
+          "finish": "gray",
+          "units": "mm",
+          "dimensions_mm": [
+            20,
+            30,
+            40
+          ],
+          "unit_price": null,
+          "line_total": null,
+          "warnings": [],
+          "error": null
+        },
+        {
+          "part_id": "part_b",
+          "delete_token": "dt_b",
+          "file_name": "Cover.step",
+          "status": "processing",
+          "quantity": 1,
+          "finish": "black",
+          "units": "mm",
+          "dimensions_mm": null,
+          "unit_price": null,
+          "line_total": null,
+          "warnings": [],
+          "error": null
+        }
+      ]
+    },
+    "isError": false
+  }
+}

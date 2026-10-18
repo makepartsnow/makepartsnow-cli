@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"ready\", \"checkout_url\": \"https://makepartsnow.com/pay/ptok123\", \"total_price\": 40.2, \"link_valid_until\": \"2026-10-15T20:00:00+00:00\", \"quote_url\": \"https://makepartsnow.com/quotes/share/abc\", \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"error\": null}"
+      }
+    ],
+    "structuredContent": {
+      "status": "ready",
+      "checkout_url": "https://makepartsnow.com/pay/ptok123",
+      "total_price": 40.2,
+      "link_valid_until": "2026-10-15T20:00:00+00:00",
+      "quote_url": "https://makepartsnow.com/quotes/share/abc",
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "error": null
+    },
+    "isError": false
+  }
+}

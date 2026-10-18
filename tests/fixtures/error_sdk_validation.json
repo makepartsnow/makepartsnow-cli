@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Input validation error: 'ship_to_zip' is a required property"
+      }
+    ],
+    "isError": true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"materials\": [{\"id\": \"pa12\", \"name\": \"PA12 Nylon (Formlabs Nylon 12)\", \"process\": \"sls\", \"description\": \"Strong, slightly flexible nylon.\", \"build_volume_mm\": [165, 165, 300], \"finishes\": [{\"id\": \"gray\", \"name\": \"Gray\", \"hex\": \"#8f9295\"}, {\"id\": \"black\", \"name\": \"Black Dyed\", \"hex\": \"#1d1d1f\"}]}, {\"id\": \"fdm_pla\", \"name\": \"PLA\", \"process\": \"fdm\", \"description\": \"Stiff, low-cost plastic.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#1d1d1f\"}, {\"id\": \"white\", \"name\": \"White\", \"hex\": \"#F4F4F1\"}, {\"id\": \"gray\", \"name\": \"Gray\", \"hex\": \"#8f9295\"}, {\"id\": \"red\", \"name\": \"Red\", \"hex\": \"#cb1217\"}]}, {\"id\": \"fdm_petg\", \"name\": \"PETG\", \"process\": \"fdm\", \"description\": \"Tough and slightly flexible.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#1d1d1f\"}, {\"id\": \"white\", \"name\": \"White\", \"hex\": \"#F4F4F1\"}, {\"id\": \"gray\", \"name\": \"Gray\", \"hex\": \"#8f9295\"}]}, {\"id\": \"fdm_abs\", \"name\": \"ABS\", \"process\": \"fdm\", \"description\": \"Heat resistant.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#1d1d1f\"}, {\"id\": \"white\", \"name\": \"White\", \"hex\": \"#F4F4F1\"}, {\"id\": \"gray\", \"name\": \"Gray\", \"hex\": \"#8f9295\"}]}, {\"id\": \"fdm_asa\", \"name\": \"ASA\", \"process\": \"fdm\", \"description\": \"UV resistant.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#1d1d1f\"}, {\"id\": \"white\", \"name\": \"White\", \"hex\": \"#F4F4F1\"}, {\"id\": \"gray\", \"name\": \"Gray\", \"hex\": \"#8f9295\"}]}, {\"id\": \"fdm_tpu95a\", \"name\": \"TPU 95A\", \"process\": \"fdm\", \"description\": \"Flexible.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#1d1d1f\"}]}, {\"id\": \"fdm_pa_cf\", \"name\": \"PA-CF\", \"process\": \"fdm\", \"description\": \"Carbon-fiber nylon.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"javascript:alert(1)\"}]}, {\"id\": \"fdm_petg_cf\", \"name\": \"PETG-CF\", \"process\": \"fdm\", \"description\": \"Carbon-fiber PETG.\", \"build_volume_mm\": [256, 256, 256], \"finishes\": [{\"id\": \"black\", \"name\": \"Black\", \"hex\": \"#2a2b2d\"}]}], \"max_parts\": 25, \"max_quantity\": 10000, \"max_file_mb\": 100, \"file_formats\": [\"step\", \"stp\", \"stl\"], \"build_volume_mm\": [165, 165, 300], \"speed\": \"standard\", \"free_shipping_threshold\": 50, \"quote_valid_days\": 30, \"promo\": {\"code\": \"CAD10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter CAD10 at checkout.\"}, \"enabled\": true, \"min_client_version\": null}"
+      }
+    ],
+    "structuredContent": {
+      "materials": [
+        {
+          "id": "pa12",
+          "name": "PA12 Nylon (Formlabs Nylon 12)",
+          "process": "sls",
+          "description": "Strong, slightly flexible nylon.",
+          "build_volume_mm": [
+            165,
+            165,
+            300
+          ],
+          "finishes": [
+            {
+              "id": "gray",
+              "name": "Gray",
+              "hex": "#8f9295"
+            },
+            {
+              "id": "black",
+              "name": "Black Dyed",
+              "hex": "#1d1d1f"
+            }
+          ]
+        },
+        {
+          "id": "fdm_pla",
+          "name": "PLA",
+          "process": "fdm",
+          "description": "Stiff, low-cost plastic.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#1d1d1f"
+            },
+            {
+              "id": "white",
+              "name": "White",
+              "hex": "#F4F4F1"
+            },
+            {
+              "id": "gray",
+              "name": "Gray",
+              "hex": "#8f9295"
+            },
+            {
+              "id": "red",
+              "name": "Red",
+              "hex": "#cb1217"
+            }
+          ]
+        },
+        {
+          "id": "fdm_petg",
+          "name": "PETG",
+          "process": "fdm",
+          "description": "Tough and slightly flexible.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#1d1d1f"
+            },
+            {
+              "id": "white",
+              "name": "White",
+              "hex": "#F4F4F1"
+            },
+            {
+              "id": "gray",
+              "name": "Gray",
+              "hex": "#8f9295"
+            }
+          ]
+        },
+        {
+          "id": "fdm_abs",
+          "name": "ABS",
+          "process": "fdm",
+          "description": "Heat resistant.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#1d1d1f"
+            },
+            {
+              "id": "white",
+              "name": "White",
+              "hex": "#F4F4F1"
+            },
+            {
+              "id": "gray",
+              "name": "Gray",
+              "hex": "#8f9295"
+            }
+          ]
+        },
+        {
+          "id": "fdm_asa",
+          "name": "ASA",
+          "process": "fdm",
+          "description": "UV resistant.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#1d1d1f"
+            },
+            {
+              "id": "white",
+              "name": "White",
+              "hex": "#F4F4F1"
+            },
+            {
+              "id": "gray",
+              "name": "Gray",
+              "hex": "#8f9295"
+            }
+          ]
+        },
+        {
+          "id": "fdm_tpu95a",
+          "name": "TPU 95A",
+          "process": "fdm",
+          "description": "Flexible.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#1d1d1f"
+            }
+          ]
+        },
+        {
+          "id": "fdm_pa_cf",
+          "name": "PA-CF",
+          "process": "fdm",
+          "description": "Carbon-fiber nylon.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "javascript:alert(1)"
+            }
+          ]
+        },
+        {
+          "id": "fdm_petg_cf",
+          "name": "PETG-CF",
+          "process": "fdm",
+          "description": "Carbon-fiber PETG.",
+          "build_volume_mm": [
+            256,
+            256,
+            256
+          ],
+          "finishes": [
+            {
+              "id": "black",
+              "name": "Black",
+              "hex": "#2a2b2d"
+            }
+          ]
+        }
+      ],
+      "max_parts": 25,
+      "max_quantity": 10000,
+      "max_file_mb": 100,
+      "file_formats": [
+        "step",
+        "stp",
+        "stl"
+      ],
+      "build_volume_mm": [
+        165,
+        165,
+        300
+      ],
+      "speed": "standard",
+      "free_shipping_threshold": 50,
+      "quote_valid_days": 30,
+      "promo": {
+        "code": "CAD10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter CAD10 at checkout."
+      },
+      "enabled": true,
+      "min_client_version": null
+    },
+    "isError": false
+  }
+}

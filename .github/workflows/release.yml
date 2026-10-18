@@ -1,0 +1,40 @@
+name: release
+# Publishes to PyPI with Trusted Publishing (no token stored): pushing a tag like v0.1.0 builds the sdist and wheel,
+# checks the tag matches makepartsnow.__version__, and uploads them. PyPI must list this repository, this workflow
+# (release.yml) and the environment "pypi" as a trusted publisher of the project "makepartsnow".
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install pytest build
+      - run: python -m pytest -q
+      - name: The tag matches the version
+        run: |
+          version=$(python -c "import sys; sys.path.insert(0, 'src'); import makepartsnow; print(makepartsnow.__version__)")
+          test "v$version" = "$GITHUB_REF_NAME"
+      - run: python -m build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

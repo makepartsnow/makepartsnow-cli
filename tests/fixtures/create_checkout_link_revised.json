@@ -1,0 +1,32 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"needs_input\", \"checkout_url\": null, \"total_price\": null, \"link_valid_until\": null, \"quote_url\": \"https://makepartsnow.com/quotes/share/abc\", \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"error\": {\"code\": \"QUOTE_REVISED\", \"message\": \"This quote was revised; use the newest revision.\", \"allowed_values\": [\"quote_q2\"]}}"
+      }
+    ],
+    "structuredContent": {
+      "status": "needs_input",
+      "checkout_url": null,
+      "total_price": null,
+      "link_valid_until": null,
+      "quote_url": "https://makepartsnow.com/quotes/share/abc",
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "error": {
+        "code": "QUOTE_REVISED",
+        "message": "This quote was revised; use the newest revision.",
+        "allowed_values": [
+          "quote_q2"
+        ]
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"deleted\": [\"part_a\"], \"errors\": [{\"part_id\": \"part_b\", \"code\": \"PART_ON_ORDER\", \"message\": \"This part is on an order.\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "deleted": [
+        "part_a"
+      ],
+      "errors": [
+        {
+          "part_id": "part_b",
+          "code": "PART_ON_ORDER",
+          "message": "This part is on an order."
+        }
+      ]
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "INVALID_ARGUMENT: items[0] needs an upload_id or a part_id."
+      }
+    ],
+    "isError": true
+  }
+}

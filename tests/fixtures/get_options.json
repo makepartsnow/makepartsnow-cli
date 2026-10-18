@@ -1,0 +1,54 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"materials\": [{\"id\": \"pa12\", \"name\": \"PA12 Nylon (Formlabs Nylon 12)\", \"finishes\": [{\"id\": \"gray\", \"name\": \"Gray\"}, {\"id\": \"black\", \"name\": \"Black Dyed\"}]}], \"max_parts\": 25, \"max_quantity\": 10000, \"max_file_mb\": 100, \"file_formats\": [\"step\", \"stp\", \"stl\"], \"build_volume_mm\": [165, 165, 300], \"speed\": \"standard\", \"free_shipping_threshold\": 50, \"quote_valid_days\": 30, \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"enabled\": true, \"min_client_version\": null}"
+      }
+    ],
+    "structuredContent": {
+      "materials": [
+        {
+          "id": "pa12",
+          "name": "PA12 Nylon (Formlabs Nylon 12)",
+          "finishes": [
+            {
+              "id": "gray",
+              "name": "Gray"
+            },
+            {
+              "id": "black",
+              "name": "Black Dyed"
+            }
+          ]
+        }
+      ],
+      "max_parts": 25,
+      "max_quantity": 10000,
+      "max_file_mb": 100,
+      "file_formats": [
+        "step",
+        "stp",
+        "stl"
+      ],
+      "build_volume_mm": [
+        165,
+        165,
+        300
+      ],
+      "speed": "standard",
+      "free_shipping_threshold": 50,
+      "quote_valid_days": 30,
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "enabled": true,
+      "min_client_version": null
+    },
+    "isError": false
+  }
+}

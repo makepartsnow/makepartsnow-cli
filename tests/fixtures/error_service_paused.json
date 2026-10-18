@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "SERVICE_PAUSED: Quoting from CAD add-ins is paused."
+      }
+    ],
+    "isError": true
+  }
+}

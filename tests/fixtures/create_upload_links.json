@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"uploads\": [{\"upload_id\": \"upl_aaa111\", \"put_url\": \"https://makepartsnow.com/api/agent/v1/uploads/signed/tok-a\", \"expires_at\": \"2026-10-14T22:00:00Z\"}, {\"upload_id\": \"upl_bbb222\", \"put_url\": \"https://makepartsnow.com/api/agent/v1/uploads/signed/tok-b\", \"expires_at\": \"2026-10-14T22:00:00Z\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "uploads": [
+        {
+          "upload_id": "upl_aaa111",
+          "put_url": "https://makepartsnow.com/api/agent/v1/uploads/signed/tok-a",
+          "expires_at": "2026-10-14T22:00:00Z"
+        },
+        {
+          "upload_id": "upl_bbb222",
+          "put_url": "https://makepartsnow.com/api/agent/v1/uploads/signed/tok-b",
+          "expires_at": "2026-10-14T22:00:00Z"
+        }
+      ]
+    },
+    "isError": false
+  }
+}

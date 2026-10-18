@@ -1,0 +1,78 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"quote_id\": \"quote_q2\", \"quote_url\": \"https://makepartsnow.com/quotes/share/def\", \"quote_status\": \"open\", \"price_valid_until\": \"2026-11-13T21:00:00+00:00\", \"revised_from\": \"quote_q1\", \"estimated_ship_date\": \"2026-10-20\", \"estimated_arrival_date\": \"2026-10-23\", \"tax_note\": \"Prices are in USD before sales tax; tax is added at checkout.\", \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"error\": null, \"next_step\": \"Call create_checkout_link to order.\", \"status\": \"ready\", \"parts\": [{\"part_id\": \"part_b\", \"delete_token\": null, \"file_name\": \"Cover.step\", \"status\": \"ready\", \"quantity\": 3, \"finish\": \"black\", \"units\": \"mm\", \"dimensions_mm\": [100, 60, 12.5], \"unit_price\": 17.0, \"line_total\": 51.0, \"warnings\": [], \"error\": null}, {\"part_id\": \"part_a\", \"delete_token\": null, \"file_name\": \"Bracket.step\", \"status\": \"ready\", \"quantity\": 2, \"finish\": \"gray\", \"units\": \"mm\", \"dimensions_mm\": [20, 30, 40], \"unit_price\": 6.5, \"line_total\": 13.0, \"warnings\": [], \"error\": null}], \"totals\": {\"parts_subtotal\": 64.0, \"discount\": 0.0, \"min_order_adjustment\": 0.0, \"shipping\": 0.0, \"shipping_estimated\": false, \"free_shipping\": true, \"total_price\": 64.0}}"
+      }
+    ],
+    "structuredContent": {
+      "quote_id": "quote_q2",
+      "quote_url": "https://makepartsnow.com/quotes/share/def",
+      "quote_status": "open",
+      "price_valid_until": "2026-11-13T21:00:00+00:00",
+      "revised_from": "quote_q1",
+      "estimated_ship_date": "2026-10-20",
+      "estimated_arrival_date": "2026-10-23",
+      "tax_note": "Prices are in USD before sales tax; tax is added at checkout.",
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "error": null,
+      "next_step": "Call create_checkout_link to order.",
+      "status": "ready",
+      "parts": [
+        {
+          "part_id": "part_b",
+          "delete_token": null,
+          "file_name": "Cover.step",
+          "status": "ready",
+          "quantity": 3,
+          "finish": "black",
+          "units": "mm",
+          "dimensions_mm": [
+            100,
+            60,
+            12.5
+          ],
+          "unit_price": 17.0,
+          "line_total": 51.0,
+          "warnings": [],
+          "error": null
+        },
+        {
+          "part_id": "part_a",
+          "delete_token": null,
+          "file_name": "Bracket.step",
+          "status": "ready",
+          "quantity": 2,
+          "finish": "gray",
+          "units": "mm",
+          "dimensions_mm": [
+            20,
+            30,
+            40
+          ],
+          "unit_price": 6.5,
+          "line_total": 13.0,
+          "warnings": [],
+          "error": null
+        }
+      ],
+      "totals": {
+        "parts_subtotal": 64.0,
+        "discount": 0.0,
+        "min_order_adjustment": 0.0,
+        "shipping": 0.0,
+        "shipping_estimated": false,
+        "free_shipping": true,
+        "total_price": 64.0
+      }
+    },
+    "isError": false
+  }
+}

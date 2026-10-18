@@ -1,0 +1,60 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"quote_id\": \"quote_q3\", \"quote_url\": \"https://makepartsnow.com/quotes/share/abc\", \"quote_status\": \"open\", \"price_valid_until\": \"2026-11-13T21:00:00+00:00\", \"revised_from\": null, \"estimated_ship_date\": \"2026-10-20\", \"estimated_arrival_date\": \"2026-10-23\", \"tax_note\": \"Prices are in USD before sales tax; tax is added at checkout.\", \"promo\": {\"code\": \"FUSION10\", \"percent_off\": 10, \"note\": \"10% off your first order: enter FUSION10 at checkout.\"}, \"error\": null, \"next_step\": \"Call create_checkout_link to order.\", \"status\": \"ready\", \"parts\": [{\"part_id\": \"part_a\", \"delete_token\": null, \"file_name\": \"Bracket.step\", \"status\": \"ready\", \"quantity\": 2, \"finish\": \"gray\", \"units\": \"mm\", \"dimensions_mm\": [20, 30, 40], \"unit_price\": 6.5, \"line_total\": 13.0, \"warnings\": [], \"error\": null}], \"totals\": {\"parts_subtotal\": 13.0, \"discount\": 0.0, \"min_order_adjustment\": 0.0, \"shipping\": 6.5, \"shipping_estimated\": false, \"free_shipping\": false, \"total_price\": 19.5}}"
+      }
+    ],
+    "structuredContent": {
+      "quote_id": "quote_q3",
+      "quote_url": "https://makepartsnow.com/quotes/share/abc",
+      "quote_status": "open",
+      "price_valid_until": "2026-11-13T21:00:00+00:00",
+      "revised_from": null,
+      "estimated_ship_date": "2026-10-20",
+      "estimated_arrival_date": "2026-10-23",
+      "tax_note": "Prices are in USD before sales tax; tax is added at checkout.",
+      "promo": {
+        "code": "FUSION10",
+        "percent_off": 10,
+        "note": "10% off your first order: enter FUSION10 at checkout."
+      },
+      "error": null,
+      "next_step": "Call create_checkout_link to order.",
+      "status": "ready",
+      "parts": [
+        {
+          "part_id": "part_a",
+          "delete_token": null,
+          "file_name": "Bracket.step",
+          "status": "ready",
+          "quantity": 2,
+          "finish": "gray",
+          "units": "mm",
+          "dimensions_mm": [
+            20,
+            30,
+            40
+          ],
+          "unit_price": 6.5,
+          "line_total": 13.0,
+          "warnings": [],
+          "error": null
+        }
+      ],
+      "totals": {
+        "parts_subtotal": 13.0,
+        "discount": 0.0,
+        "min_order_adjustment": 0.0,
+        "shipping": 6.5,
+        "shipping_estimated": false,
+        "free_shipping": false,
+        "total_price": 19.5
+      }
+    },
+    "isError": false
+  }
+}
